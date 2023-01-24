@@ -7,8 +7,6 @@ import Layout from "@/components/Layout";
 import { sortByDate } from "@/utils/index";
 
 function HomePage({ posts }) {
-	// console.log(posts);
-
 	return (
 		<Layout>
 			<h1 className="text-5xl font-bold border-b-4 p-5">Latest Posts</h1>

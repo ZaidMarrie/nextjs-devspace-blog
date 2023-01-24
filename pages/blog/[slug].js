@@ -7,8 +7,6 @@ import CategoryLabel from "@/components/CategoryLabel";
 import Layout from "@/components/Layout";
 
 function PostPage({ post }) {
-	console.log(post);
-
 	return (
 		<Layout title={post.frontmatter.title}>
 			<Link href="/blog">Go Back</Link>
