@@ -20,7 +20,7 @@ function Pagination({ currentPage, numPages }) {
 				)}
 
 				{Array.from({ length: numPages }, (_, i) => (
-					<Link href={`/blog/page/${i + 1}`}>
+					<Link href={`/blog/page/${i + 1}`} key={i}>
 						<li className="leading-tight text-gray-800 mr-1 px-3 py-2 border border-gray-300 rounded bg-white hover:bg-gray-200">
 							{i + 1}
 						</li>
