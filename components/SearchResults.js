@@ -1,7 +1,6 @@
 import Post from "./Post";
 
 function SearchResults({ results }) {
-	console.log(results);
 	if (results.length === 0) return <></>;
 
 	return (
